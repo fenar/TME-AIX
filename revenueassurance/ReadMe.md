@@ -43,7 +43,7 @@ Final-Model: https://huggingface.co/fenar/revenue-assurance
 
 (1) (Obviously) Clone the Repo :-)  <br>
 (2) Open revenueassurance/01-telco-revass-randomforest.ipynb and Run-All. This would install all required libs, extract data from data/telecom_revass_data.csv.xz and load it for the model training {BalancedRandomForestClassifier }, evaluate it and save it under models/ directory. <br>
-(3) Run 01-model_server.py which loads the BalancedRandomForestClassifier and serves on http://localhost:5000/predict url. <br>
+(3) Run 01-randomforest-model_server.py which loads the BalancedRandomForestClassifier and serves on http://localhost:35000/predict url. <br>
 
 ![Model-Server](https://raw.githubusercontent.com/fenar/etc-ai-wrx/main/revenueassurance/data/modelserver.png)<br>
 (4) From a cli , do a curl query: <br>
@@ -66,7 +66,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
     "Personal_Pin_Used": 0, 
     "Avg_Call_Duration": 50,
     "Avg_Data_Usage": 8000
-}' http://localhost:5000/predict
+}' http://localhost:35000/predict
 ```
 (B) Potential Non-Fraud Test: <br>
 ```
@@ -83,7 +83,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
     "Personal_Pin_Used": 1,
     "Avg_Call_Duration": 12,
     "Avg_Data_Usage": 350
-}' http://localhost:5000/predict
+}' http://localhost:35000/predict
 ```
 ## Deploying as k8s pod 
 
