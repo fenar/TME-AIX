@@ -12,6 +12,14 @@ To empower travelers with insights into Starlink's internet service quality at t
     <img src="https://raw.githubusercontent.com/tme-osx/TME-AIX/refs/heads/RedHat-Special/starlink/images/starling-qoe-moods.png" width="640"/>
 </div>
 
+## Software Requirement
+
+| Software      | Version |
+|---------------|---------|
+| Python        | 3.12    |
+
+> Tested with Python 3.12 as the minimum version. Python 3.13 and later 3.x releases may work but have not been validated.
+
 ## Data
 ![Data Structure](https://raw.githubusercontent.com/tme-osx/TME-AIX/refs/heads/main/starlink/images/starlink-data.png)<br>
 DataSet Location: https://huggingface.co/datasets/fenar/starlink

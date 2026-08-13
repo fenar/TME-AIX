@@ -2,6 +2,7 @@
 
 - [Revenue Assurance and Fraud Management (RAFM) with AI Assistance](#Revenue-Assurance-and-Fraud-Management-\(RAFM\)-with-AI-Assistance)
   - [Project Overview](#Project-Overview)
+  - [Software requirement](#Software-Requirement)
   - [Options](#Options)
   - [Data](#Data)
   - [Results](#Results)
@@ -23,6 +24,14 @@ This project aims to deliver an RAFM prediction (if that particular telco transa
 The models are trained on synthetic telecom data to predict fraud cases and identify potential anomalies. The goal is to provide proactive revenue management and enhance revenue workflows.<br>
 
 Data-Set: https://huggingface.co/datasets/fenar/revenue_assurance
+
+## Software Requirement
+
+| Software      | Version |
+|---------------|---------|
+| Python        | 3.12    |
+
+> Tested with Python 3.12 as the minimum version. Python 3.13 and later 3.x releases may work but have not been validated.
 
 ## Options 
 

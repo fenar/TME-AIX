@@ -7,6 +7,14 @@ This project aims to deliver a service assurance insights (net promoter score -N
 
 **🎥 Demo Video**: [Watch on YouTube](https://youtu.be/gFbtux0dGVA) <br>
 
+## Software Requirement
+
+| Software      | Version |
+|---------------|---------|
+| Python        | 3.12    |
+
+> Tested with Python 3.12 as the minimum version. Python 3.13 and later 3.x releases may work but have not been validated.
+
 ## Data
 ![Service Assurance Data Structure](https://raw.githubusercontent.com/fenar/etc-ai-wrx/main/serviceassurance/data/svcass-datainsp.png)<br>
 

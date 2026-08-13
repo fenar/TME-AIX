@@ -9,6 +9,14 @@ This project delivers an end‑to‑end Telecom Customer Churn Prediction soluti
 
 Both models are trained on rich, synthetic telecom datasets—incorporating usage patterns, billing details, and support interactions—to predict which customers are at highest risk of churn. By identifying high‑risk segments in advance, operators can deploy targeted retention offers and optimize churn‑prevention campaigns, ultimately safeguarding revenue and improving customer lifetime value.
 
+## Software Requirement
+
+| Software      | Version |
+|---------------|---------|
+| Python        | 3.12    |
+
+> Tested with Python 3.12 as the minimum version. Python 3.13 and later 3.x releases may work but have not been validated.
+
 ## Model Options
 
 Both the Balanced Random Forest and LightGBM classifiers are well‑suited for binary churn prediction, but they achieve this in different ways that are worth understanding:
