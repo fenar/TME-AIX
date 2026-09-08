@@ -7,7 +7,7 @@ aiohttp>=3.8.5
 
 # Data handling and validation
 pydantic>=2.4.2
-numpy>=1.24.0
+numpy>=2.5.2
 pandas>=2.0.0
 
 # Asynchronous programming
