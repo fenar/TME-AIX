@@ -245,6 +245,14 @@
             "markers": "python_version >= '3.7'",
             "version": "==0.5.7"
         },
+        "cloudpickle": {
+            "hashes": [
+                "sha256:7fda9eb655c9c230dab534f1983763de5835249750e85fbcef43aaa30a9a2414",
+                "sha256:9acb47f6afd73f60dc1df93bb801b472f05ff42fa6c84167d25cb206be1fbf4a"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==3.1.2"
+        },
         "cryptography": {
             "hashes": [
                 "sha256:031e2d5dd4bb9caa3ca9c82e5a197fd8ae680232cee62603d1a813f3f07e3d03",
@@ -424,11 +432,12 @@
         },
         "joblib": {
             "hashes": [
-                "sha256:5fc3c5039fc5ca8c0276333a188bbd59d6b7ab37fe6632daa76bc7f9ec18e713",
-                "sha256:8561a3269e6801106863fd0d6d84bb737be9e7631e33aaed3fb9ce5953688da3"
+                "sha256:2ccc96785b12046c08fd6d55839c12857831b54a3c1673ffadd2f04bfc4eda03",
+                "sha256:3dbbf9f6e4b592a2357b854608e980fe6390d131d7a82f011a377ef2ebef7aba"
             ],
-            "markers": "python_version >= '3.9'",
-            "version": "==1.5.3"
+            "index": "pypi",
+            "markers": "python_version >= '3.10'",
+            "version": "==1.6.0"
         },
         "kfp": {
             "hashes": [
