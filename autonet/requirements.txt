@@ -23,7 +23,7 @@ setuptools>=83.0.0
 scikit-learn>=1.3.0
 
 # Langchain for vector processing (if using vector stores)
-langchain>=0.0.300
+langchain>=1.4.0
 langchain-openai>=0.0.5
 langchain-community>=0.0.20
 
