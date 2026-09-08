@@ -11,7 +11,7 @@ jaxtyping>=0.2.25
 equinox>=0.11.0
 
 # Data processing
-numpy>=1.24.0
+numpy>=2.5.2
 pandas>=2.0.0
 scipy>=1.11.0
 
