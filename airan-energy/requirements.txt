@@ -35,7 +35,7 @@ statsmodels>=0.14.0
 # Config and logging
 pyyaml>=6.0
 tqdm>=4.65.0
-python-dotenv>=1.0.0
+python-dotenv>=1.2.3
 
 # Experiment tracking (optional)
 wandb>=0.15.0
